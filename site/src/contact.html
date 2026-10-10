@@ -1,0 +1,56 @@
+
+  <!-- HERO -->
+  <section class="hero hero--simple">
+    <div class="wrap">
+      <div class="hero__inner">
+        <p class="eyebrow">Contact</p>
+        <h1>Discuss your leadership pipeline.</h1>
+        <p class="lead">I work with organisations where high-performing women are not translating into senior leaders, and fix the gap between delivery and influence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split split--rev">
+      <div class="reveal">
+        <p class="eyebrow">Enquiry</p>
+        <h2 style="font-size:clamp(30px,3.4vw,44px)">Tell us what you are seeing.</h2>
+        <p class="muted" style="margin-bottom:36px">A few lines are enough. We respond within two working days.</p>
+
+        <!-- TODO: set data-to to the real enquiry inbox, or swap the handler in main.js for a form backend -->
+        <form id="enquiry-form" class="form" data-to="hello@globalwomenascend.com" novalidate>
+          <div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="role">Role</label><input id="role" name="role" required autocomplete="organization-title"></div>
+          <div class="field"><label for="organisation">Organisation</label><input id="organisation" name="organisation" required autocomplete="organization"></div>
+          <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field full">
+            <label for="interest">Area of interest</label>
+            <select id="interest" name="interest">
+              <option>Leadership Transition Programme</option>
+              <option>1-2-1 Leadership Coaching</option>
+              <option>Atlantis leadership simulation</option>
+              <option>Not sure yet: diagnosing the gap</option>
+            </select>
+          </div>
+          <div class="field full"><label for="message">What is happening in your pipeline?</label><textarea id="message" name="message" placeholder="For example: strong senior women not stepping forward at Director level, a promotion round coming up, retention concerns."></textarea></div>
+          <div class="full" style="display:flex;align-items:center;gap:22px;flex-wrap:wrap">
+            <button class="btn" type="submit">Discuss your leadership pipeline</button>
+            <span class="form-note">Confidential. No mailing lists.</span>
+          </div>
+        </form>
+        <div class="form-success">
+          <h3>Thank you.</h3>
+          <p class="muted">Your email client should have opened with your enquiry. Send it and we will be in touch within two working days.</p>
+        </div>
+      </div>
+
+      <aside class="reveal">
+        <figure class="contact-photo"><img data-fallback src="images/pascale-3.jpg" alt="Pascale Lebaillif"></figure>
+        <div class="side-box">
+        <h3>Prefer to speak?</h3>
+        <p>Choose a time that works for you. We’ll discuss what you’re seeing in your organisation and whether this is the right fit.</p>
+        <a class="btn btn--gold" href="https://cal.com/pascale-lebaillif/30min" target="_blank" rel="noopener">Book introductory call</a>
+        </div>
+      </aside>
+    </div>
+  </section>
